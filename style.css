@@ -22,7 +22,7 @@
    /* background: url(flower.jpg); */
    background-size: cover;
    background-position: center;
-   height: 100vh;
+   height: 80vh;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -48,7 +48,7 @@
 
  .info{
   font-size: 22px;
-  color: blue;
+  color: rgb(75, 75, 219);
   font-weight: 900;
   font-style: italic;
  }
