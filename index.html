@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body class="body">
+  
+  
+
+<section class="game">
+
+  <p class="info">SMART MINDS GUESSING GAME</p>
+
+  <button class="mode"  onclick="change()" >
+    <div class="sun"><i class="fa-solid fa-sun"></i></div>
+     <div class="moon"><i class="fa-solid fa-moon"></i></div>
+  </button>
+  
+  <div class="subGame">
+    <section class="popUp">
+      <div class="subPopup">
+        <p class="text">You've exhausted your limit. <br>Please kindly refresh</p>
+        <button onclick="cancel()" class="fa-xmarks">
+    
+          <i class="fa-solid fa-xmark" ></i>
+        </button>
+      </div>
+    
+  </section>
+
+    <h1>GUESSING GAME</h1>
+    
+    <p class="des">Guess a number from 10-30</p>
+    
+    <form>
+      
+      <input type="number" id="input" required>
+      
+      <p id="result"></p>
+      
+    </form>
+    <button id="btn" onclick="guess()">Guess</button>
+    <p>You have only 5 chances</p>
+    
+    <p id="guessCount"></p>
+    
+    <p id="limit"></p>
+  </div>
+  
+  
+  <div>
+    <p class="link">Checkout our gaming community <a href="https://chat.whatsapp.com/LeOWxwiCswlCEmHbh9GUx?s=cl&p=a&mlu=0">Elite Gamers</a></p>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
